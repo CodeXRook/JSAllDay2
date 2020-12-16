@@ -26,3 +26,10 @@ greeting1;
 var greeting2 = "It's great to see you!";
 greeting2;
 // "It's great to see you!"
+
+var greeting3 = 'Don\'t forget to grab the newspaper\n on your way out. You are goin to be\n on the bus for a long time because of traffic.';
+greeting3; 
+/*"Don't forget to grab the newspaper
+on your way out. You are goin to be
+on the bus for a long time because of traffic."
+*/
