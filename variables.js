@@ -14,7 +14,7 @@ var favorite color = 'green';
 var var = 'car';
 */
 
-var firstPet = 'Bear';
+var Pet1 = 'Bear';
 var baseBallTeam = 'Dodgers';
 var favoriteDayOfTheWeek = 'Friday';
 var favorite_color = 'green';
