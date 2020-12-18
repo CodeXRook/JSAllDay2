@@ -103,3 +103,49 @@ shoppingList.pop()// removes 'popcorn' from the end of the array
 var firstItemSarah = shoppingList.shift();
 
 var lastItemPhil = shoppingList.pop();
+
+// we're going to look at the array methods 
+// concat reverse and slice.
+
+// CONCAT
+var bigDog =['golden retriever', 'St.bernard', 'german shepard', 'bernese mountain dog'];
+
+var littleDog = ['terrier', 'weiner dog', 'corgie', 'pomeranian'];
+
+var allDogs = bigDog.concat(littleDog); // CONCAT
+
+var cats = ['alley cat', 'fraidy cat', 'scaredy cat'];
+
+var enemies = bigDog.concat(littleDog, cats);
+
+// REVERSE
+// This is going to take or array and switch the order
+// There is no need to put anything within the method call.
+
+var smallestFirst = allDogs.reverse();
+
+
+
+// SORT
+// the sort method sorts all the items of an array 
+// the sort order can be either alphabetic or numeric 
+// and either a ascending up or descending down.
+var alphaOrder = allDogs.sort();
+
+
+//SLICE
+// slice method will take in two arguments.
+// The first specifies the start of the slice 
+// and the second specifies the end of the slice to be returned.
+allDogs.slice(1,4); // start of index end of index
+/* 
+ Unlike shift and pop.
+ This doesn't destroy the values from the original array.
+ It simply returns them.
+*/ 
+
+// review array methods
+// concat method - join two or more arrays
+// reverse method - reverse order of elements
+// sort method - sort alpha numeric
+// slice method - returns but does not delete a section
