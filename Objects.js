@@ -72,3 +72,50 @@ house.gym = true;
 house.saferoom = true;
 house.sauna = true;
 house.greenhouse = true;
+
+
+// Object constructor functions
+// Object constructor functions allow us to create many objects 
+// using a function
+
+// practice
+var home = {
+    rooms: 4,
+    apartment: false,
+    color: 'brown',
+    swimmingPool: true,
+    state: 'WA',
+    city: 'Seattle'
+};
+
+function Home(rooms, apartment, color, swimmingPool, state, city) {
+    this.rooms = rooms;
+    this.apartment = apartment;
+    this.color = color;
+    this.swimmingPool = swimmingPool;
+    this.state = state;
+    this.city = city;
+};
+
+
+// create book with object literal notation
+// create libaray with object constructor function
+// create 5 instances of book
+
+var book = {
+    author: 'Victor Hugo',
+    title: 'Les Miserables',
+    pages: 1200
+};
+
+function Book(author, title, pages) {
+    this.author = author;
+    this.title = title;
+    this.pages = pages;
+};
+
+var book1 = new Book('Charles Dickenson', 'Tale of Two Cities', 567);
+
+var book2 = new Book('Definitive JavaScript', 'David Flanigan', 857);
+
+var book3 = new Book('Frankenstien', 'Mary Shelly', 454);
