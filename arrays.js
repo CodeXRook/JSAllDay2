@@ -149,3 +149,38 @@ allDogs.slice(1,4); // start of index end of index
 // reverse method - reverse order of elements
 // sort method - sort alpha numeric
 // slice method - returns but does not delete a section
+
+// practice
+var colors = ['red', ' orange', 'yellow', 'green', 'blue', 'violet'];
+// challenge 
+// build another color array and add the two together
+var moreColors = ['brown', 'purple', 'navy blue', 'cream', 'pink'];
+
+var allMyColors = colors.concat(moreColors);
+
+var topSelfColor = ['black', 'gold', 'silver', 'diamond', 'platnuim'];
+allMyColors = colors.concat(moreColors, topSelfColor);
+/// done
+
+allMyColors.reverse(); /// done
+
+var alphaColor = allMyColors.sort() /// done
+
+// slice practice 
+
+var weather = ['rainy', 'cold', 'chilly', 'snowy', 'cloudy', 'hot', 'warm', 'humid'];
+
+var winter = weather.slice(0,5); /// done
+
+var summer = weather.slice(5) // since its near the end and is all summer conditions no need to add ending index// done
+
+///
+
+// challenge
+// create same variable using negative numbers
+
+var winter = weather.slice(-8, -3);
+
+var summers = weather.slice(-3);
+
+/// NICCE
