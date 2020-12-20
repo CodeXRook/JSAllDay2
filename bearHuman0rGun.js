@@ -11,6 +11,11 @@
      // turn fututer userInput to lowerCase
      userInput = userInput.toLowerCase(); 
      // if there is a match return 'userInput'
-     if (userInput ===)
+     if (userInput === 'bear' || userInput === 'human' || userInput === 'gun') {
+         return userInput;
+        // if no match prompt user for valid entry
+     } else {
+         
+     }
  }
 
