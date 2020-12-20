@@ -8,6 +8,6 @@
 
  // create function getUserChoice with a parameter of 'userInput'
  function getUserChoice(userInput) {
-     
+     // turn fututer userInput to lowerCase
  }
 
