@@ -31,4 +31,12 @@ function getComputerChoice(){
     }
 }
 
-// create a function 'determinWinner'
+// create a function 'determinWinner' and pass in parameters
+// 'userChoice' and 'computerChoice'
+function determineWinner(userChoice, computerChoice){
+    // if there is a tie
+    if (userChoice === computerChoice) {
+        return 'It is a tie';
+    }
+    // if user selects 'human'
+}
