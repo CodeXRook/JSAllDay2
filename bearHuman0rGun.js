@@ -66,3 +66,7 @@ function determineWinner(userChoice, computerChoice) {
     }
 }
 
+function playGame() {
+    // prompt user to make choice
+    var prompt
+}
