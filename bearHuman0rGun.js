@@ -13,7 +13,7 @@ function getUserChoice(userInput) {
     // if there is a match return `userInput`
     if (userInput === 'bear' || userInput === 'human' || userInput === 'gun') {
         return userInput;
-      // if no match prompt user for valid entry
+        // if no match prompt user for valid entry
     } else {
         return 'Please enter valid option';
     }
@@ -66,20 +66,21 @@ function determineWinner(userChoice, computerChoice) {
     }
 }
 
+
 function playGame() {
     // prompt user to make choice
-    var promptUsesChoice = prompt('Please choose bear, human or gun');
+    var promptUsesChoice = prompt("Please choose bear, human or gun");
     // format user choice to lower case and check for valid word
     var userChoice = getUserChoice(promptUsesChoice);
-    // call 'getComputerChoice() and assign to variable 'computerChoice'
+    // call `getComputerChoice()` and assign to variable `computerChoice` 
     var computerChoice = getComputerChoice();
     console.log(computerChoice);
     console.log(userChoice);
-    // pass 'userChoice' and 'computerChoice' to the function 'determineWinner'
+    // pass `userChoice` and `computerChoice` to the function `determineWinner`
     // and log to the console
     console.log(determineWinner(userChoice, computerChoice));
 }
 
-// call play game function 
-
+// call `playGame` function
 playGame();
+
