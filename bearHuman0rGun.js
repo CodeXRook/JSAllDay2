@@ -68,5 +68,18 @@ function determineWinner(userChoice, computerChoice) {
 
 function playGame() {
     // prompt user to make choice
-    var prompt
+    var promptUsesChoice = prompt('Please choose bear, human or gun');
+    // format user choice to lower case and check for valid word
+    var userChoice = getUserChoice(promptUsesChoice);
+    // call 'getComputerChoice() and assign to variable 'computerChoice'
+    var computerChoice = getComputerChoice();
+    console.log(computerChoice);
+    console.log(userChoice);
+    // pass 'userChoice' and 'computerChoice' to the function 'determineWinner'
+    // and log to the console
+    console.log(determineWinner(userChoice, computerChoice));
 }
+
+// call play game function 
+
+playGame();
