@@ -9,5 +9,8 @@
  // create function getUserChoice with a parameter of 'userInput'
  function getUserChoice(userInput) {
      // turn fututer userInput to lowerCase
+     userInput = userInput.toLowerCase(); 
+     // if there is a match return 'userInput'
+     if (userInput ===)
  }
 
