@@ -39,4 +39,9 @@ function determineWinner(userChoice, computerChoice){
         return 'It is a tie';
     }
     // if user selects 'human'
-}
+    if (userChoice === 'human') {
+        // if computer selects 'bear'
+    } else {
+        return 'You have disarmed a gun';
+    }
+} 
