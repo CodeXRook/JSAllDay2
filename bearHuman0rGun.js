@@ -48,5 +48,14 @@ function determineWinner(userChoice, computerChoice){
 // if user selects 'bear'
 if (userChoice === 'bear') {
     // if computer selects 'gun'
-    
+    if (computerChoice === 'gun') {
+        return 'You have been shot by a gun';
+    } else {
+        return 'You mauled a human';
+    }
+}
+
+// if user selects a 'gun'
+if (userChoice === 'gun') {
+ 
 }
