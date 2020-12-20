@@ -21,5 +21,14 @@
 
 // 5 create a function that will provide a random computer choice for each round
 function getComputerChoice(){
-    
+    var random = Math.floor(Math.random() * 3);
+    if (randomNumber === 0) {
+        return 'bear';
+    } else if (randomNumber === 1) {
+        return 'human';
+    } else {
+        return 'gun';
+    }
 }
+
+// create a function 'determinWinner'
