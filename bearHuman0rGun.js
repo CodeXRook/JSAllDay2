@@ -45,3 +45,8 @@ function determineWinner(userChoice, computerChoice){
         return 'You have disarmed a gun';
     }
 } 
+// if user selects 'bear'
+if (userChoice === 'bear') {
+    // if computer selects 'gun'
+    
+}
