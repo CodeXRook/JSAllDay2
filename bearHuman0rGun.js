@@ -6,7 +6,7 @@
  the more powerful item wins.
  */
 
- 
+
 // // create function getUserChoice with a parameter of `userInput`
 // function getUserChoice(userInput) {
 //     // turn future `userInput` to lower case
