@@ -14,5 +14,21 @@ or too little.
 // return any given day's number of calories consumed
 // it will accept an argument of 'day' and return a number
 function inputCalorieByDay(day){
-
+   if (day === 'Monday') {
+       return 3500;
+   } else if (day === 'Tuesday') {
+       return 1500;
+   } else if ( day === 'Wednesday') {
+       return 1800;
+   } else if (day === 'Thursday') {
+       return 2300;
+   } else if (day === 'Firday') {
+       return 2400;
+   } else if (day === 'Saturday') {
+       return 1500;
+   } else if (day === 'Sunday') {
+       return 1500;
+   } else {
+       return 'Please Choose a Mf\'n valid day dawg'
+   }
 }
