@@ -32,3 +32,12 @@ function inputCalorieByDay(day){
        return 'Please Choose a Mf\'n valid day dawg'
    }
 }
+
+
+console.log(inputCalorieByDay('Monday'));
+console.log(inputCalorieByDay('Tuesday'));
+console.log(inputCalorieByDay('Wednesday'));
+console.log(inputCalorieByDay('Thursday'));
+console.log(inputCalorieByDay('Friday'));
+console.log(inputCalorieByDay('Saturday'));
+console.log(inputCalorieByDay('Sunday'));
