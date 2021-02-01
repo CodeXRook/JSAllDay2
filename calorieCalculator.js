@@ -35,5 +35,18 @@ function inputCalorieByDay(day){
 
 // returns the value of total calories consumed in a week
 function getTotalCalories(){
-    
+    return inputCalorieByDay('Monday') +
+    inputCalorieByDay('Tuesday') + 
+    inputCalorieByDay('Wednesday') +
+    inputCalorieByDay('Thursday') +
+    inputCalorieByDay('Friday') +
+    inputCalorieByDay('Saturday') +
+    inputCalorieByDay('Sunday');
 }
+
+// return value of total ideal calories consumed in a week
+function getIdealCalories() {
+    var idealDailyCalories = 2000;
+    return idealDailyCalories * 7;
+}
+
