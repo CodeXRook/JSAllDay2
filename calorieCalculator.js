@@ -50,3 +50,16 @@ function getIdealCalories() {
     return idealDailyCalories * 7;
 }
 
+function calulateHealthPlan() {
+    var actualCalories = getTotalCalories();
+    var idealCalories = getIdealCalories();
+    if(actualCalories === idealCalories){
+        console.log('You ate just the right amount!');
+    } else if (actualCalories > idealCalories) {
+        console,.log('Time to head to the gym bruh bruh');
+    } else {
+        console.log('Time for seconds')
+    }
+}
+
+console.log(calulateHealthPlan());
