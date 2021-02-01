@@ -33,11 +33,7 @@ function inputCalorieByDay(day){
    }
 }
 
-
-console.log(inputCalorieByDay('Monday'));
-console.log(inputCalorieByDay('Tuesday'));
-console.log(inputCalorieByDay('Wednesday'));
-console.log(inputCalorieByDay('Thursday'));
-console.log(inputCalorieByDay('Friday'));
-console.log(inputCalorieByDay('Saturday'));
-console.log(inputCalorieByDay('Sunday'));
+// returns the value of total calories consumed in a week
+function getTotalCalories(){
+    
+}
