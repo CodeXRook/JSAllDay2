@@ -63,3 +63,22 @@ if (todaysWeather > 90 || todaysWeather === 90) {
 }
 
 // Fam it is hotter than a mf out here bruh
+
+
+// Temp
+
+var temp = 74;
+var rainy = true;
+if (temp > 90) {
+    console.log('I am goin swimming');
+} else if (temp > 80) {
+    console.log('Time for a tan');
+} else if ((temp > 70) && (!rainy)) {
+    console.log('I am going for a walk');
+} else if ((temp > 70) && (rainy)) {
+    console.log('I am going to grab my umbrella');
+} else {
+    console.log ('I am staying home!');
+}
+
+// I am going to grab my umbrella
