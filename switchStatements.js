@@ -79,3 +79,28 @@ switch(dice) {
     break;
 }
 
+// Make dice roll random with (Math.floor(Math.random())
+var dice = 6;
+switch(Math.floor(Math.random() * 7)) {
+    case 1:
+    alert ('Terrible roll');
+    break;
+    case 2:
+    alert ('you suck, next');
+    break;
+    case 3:
+    alert ('damn dawg, nope');
+    break;
+    case 4 :
+    alert ('faaak');
+    break;
+    case 5: 
+    alert ('close but no');
+    break;
+    case 6:
+    alert ('Yes, finally you got 6');
+    break;
+    default:
+    alert ('My g did you roll');
+    break;
+}
