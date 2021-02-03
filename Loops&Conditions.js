@@ -43,3 +43,23 @@ if (testScore > 90) {
     console.log('Damn bruda did you even study?');
 }
 //This mf was studying doe, you got an A!, Good shit
+
+
+// Challenge
+// Create an if, else, else if statement
+// Use at least one if, two else if and one else statement
+// Use at least one logical operator
+// Suggestion weather
+
+var todaysWeather = 90;
+if (todaysWeather > 90 || todaysWeather === 90) {
+    console.log('Fam it is hotter than a mf out here bruh');
+} else if (todaysWeather < 80 && todaysWeather === 75) {
+    console.log('Not bad out here, cool breeze');
+} else if ( todaysWeather === 60 || todaysWeather < 65) {
+    console.log('I need my jacket son');
+} else {
+    console.log('Wtf going on?');
+}
+
+// Fam it is hotter than a mf out here bruh
