@@ -55,3 +55,17 @@ My favorite number is 8!
 */
 
 
+// Loop through Array
+
+var zooNames = ['lion', 'tiger', 'bear'];
+var arrayLength = zooNames.length; // 3
+for(i = 0; i < arrayLength; i++) {
+    console.log('My favorite zoo animals is the ' + zooNames[i] + '!');
+}
+
+/*
+My favorite zoo animals is the lion!
+My favorite zoo animals is the tiger!
+My favorite zoo animals is the bear!
+*/
+
