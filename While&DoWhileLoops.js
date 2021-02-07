@@ -5,20 +5,53 @@ while(score < 5) {
     console.log(score);
     score++;
 }
-// 0    
-// 1
-// 2
-// 3
-// 4
-// 5 is not less than 5, that's false.
-
+/*
+ 0    
+1
+2
+3
+4
+5 is not less than 5, that's false.
+*/
 
 
 // Do/while
+
 var value = 5;
 do{
     console.log(value);
     value++;
-} while (value < 3);
+} while (value < 13);
+
+/*
+5
+6
+7
+8
+9
+10
+11
+12
+12
+*/
+
+
+// For loop
+
+for(var i = 0; i <10; i++) {
+    console.log('My favorite number is ' + i + '!');
+}
+
+/*
+My favorite number is 0!
+My favorite number is 1!
+My favorite number is 2!
+My favorite number is 3!
+My favorite number is 4!
+My favorite number is 5!
+favorite number is 6!
+My favorite number is 7!
+My favorite number is 8!
+*/
 
 
