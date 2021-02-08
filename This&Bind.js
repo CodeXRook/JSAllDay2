@@ -17,3 +17,59 @@ cat = {
         console.log(this.sound);
     }
 };
+cat.speak(); //Meow
+
+//
+
+speakFunction = cat.speak;
+
+let speakFunctionBind = speakFunction.bind(cat);
+
+speakFunctionBind();
+// Meow
+
+
+// Review this & bind
+// 'this si difined by creation context
+// in objects 'this' is set to the object method is called on
+// bind
+// helps 'this' find context
+// pass object as argument to bind method to find desired context
+
+// practice
+
+let person1 = {
+    name: 'Alex'
+   };
+
+   let person2 = {
+    name: 'Alexis'
+   };
+
+   function namer() {
+    return this.name;
+  }
+
+namer.bind(person1)();
+// "Alex"
+
+namer.bind(person2)();
+// "Alexis"
+
+
+//
+let number = {
+    x: 24,
+    y: 22
+   };
+
+
+   let count = function() {
+    console.log(this.x + this.y);
+   }
+
+   count();
+
+   let boundFunc = count.bind(number);
+   boundFunc();
+   // 46
