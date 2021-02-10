@@ -50,3 +50,13 @@ var person1 = {
     name: 'Tim'
 }
 
+myLanguages.call(person1, 'JavaScipt', 'Ruby', 'Python');
+
+// My name is Tim and I know JavaScipt, Ruby, and Python
+
+var person2 = { name: 'Sarah'};
+
+var languages = ['English', 'Spanish', 'German'];
+
+myLanguages.call(person2, languages[0], languages[1], languages[2]);
+// My name is Sarah and I know English, Spanish, and German
