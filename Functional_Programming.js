@@ -211,3 +211,57 @@ mulitArr.reduce(function(acc,curr,idx,arr){
 
 // pracice
 
+var homeruns = [
+    {batter: 12},
+    {batter: 21},
+    {batter: 28},
+    {batter: 42},
+    {batter: 31},
+    {batter: 22},
+    {batter: 17},
+    {batter: 16},
+    {batter: 5}
+];
+
+var totalHomers = homeruns.reduce(function(a, b) {
+    console.log('accumulative', a, 'current', b);
+    return a + b.batter;
+}, 0);
+
+// challeng
+// create an array of 5 elements
+// find the sum, product, and largest value
+
+var numbers = [5, 10, 15, 20, 25];
+
+numbers.reduce(function(x, y) {
+    console.log(x, y);
+    return x + y;
+});
+
+// product
+numbers.reduce(function(x, y) {
+    console.log(x, y);
+    return x * y;
+});
+
+//
+
+numbers = [10, 5, 20, 25, 15];
+// find largest number in array
+
+numbers.reduce(function(acc, curr) {
+    if (acc > curr) {
+        return acc;
+    }
+    else {
+        return curr;
+    }
+});
+
+// practice 
+// use map method on all elements of an array
+// use reduce method to return single value of new array
+// CHALLENGE
+// chain method
+
