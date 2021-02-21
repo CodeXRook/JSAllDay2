@@ -55,3 +55,45 @@ for (var i = 0; i < weather.length; i++) {
 }
 
 goOutside;
+
+// pratice
+// filter method
+// pass a function to filter method and return array of all elements that return a value true
+
+var niceWeather = function(temp) {
+    return temp > 70;
+}
+
+var goOutside = weather.filter(niceWeather);
+goOutside;
+[72, 84, 92, 85, 72]
+
+
+// another way 
+
+var goOutside = weather.filter(function(temp) {
+    return temp > 70;
+})
+
+goOutside;
+[72, 84, 92, 85, 72]
+
+// Build array with objects
+
+var forecast = [
+    {day: 'Monday', sun: true},
+    {day: 'Tuesday', sun: false},
+    {day: 'Wednesday', sun: true},
+    {day: 'Thursday', sun: true},
+    {day: 'Friday', sun: false},
+    {day: 'Saturday', sun: true},
+    {day: 'Sunday', sun: false}
+];
+
+var sunnyDays = [];
+
+for (var i = 0; i < forecast.length; i++) {
+    if (forecast[i].sun) {
+        sunnyDays.push(forecast[i]);
+    }
+}
