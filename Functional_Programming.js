@@ -185,3 +185,29 @@ var shout = greeting.map(function(salutation) {
 var hiShout = shout.shift();
 hiShout;
 'HI'
+
+// Reduce();
+/* 
+Applies a function against an accumaltor 
+and each value of the array [from left to right]
+To reduce it to a single value.
+*/
+
+var numbers = [1,2,3,4];
+numbers.reduce(function(acc,acc,curr,idx,arr){
+    return acc + curr;
+},5);
+
+// reduce mulitple array to one array
+var multArr = [[0,1],[2,2],[4,5]];
+mulitArr.reduce(function(acc,curr,idx,arr){
+    return acc.concat(curr);
+}, [-2,-1]);
+
+// review reduce 
+// Higher order function
+// two arguments
+// high customization
+
+// pracice
+
