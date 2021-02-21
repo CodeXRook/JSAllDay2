@@ -97,3 +97,19 @@ for (var i = 0; i < forecast.length; i++) {
         sunnyDays.push(forecast[i]);
     }
 }
+
+/// With filter 
+
+var forecast = [
+    {day: 'Monday', sun: true},
+    {day: 'Tuesday', sun: false},
+    {day: 'Wednesday', sun: true},
+    {day: 'Thursday', sun: true},
+    {day: 'Friday', sun: false},
+    {day: 'Saturday', sun: true},
+    {day: 'Sunday', sun: false}
+];
+
+var sunnyDays = forecast.filter(function(weather) {
+    return weather.sun;
+})
