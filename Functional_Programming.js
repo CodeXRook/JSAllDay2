@@ -171,3 +171,17 @@ var double = numbers.map(function(mult) {
     return mult + 1;
 })
 // double;[5, 9, 13, 17, 21, 25]
+
+// challenge 
+// change an array of greetings to all upper case words
+// save the first word in the array to a variable 
+
+var greeting = ['hi', 'hello', 'hey', 'thanks'];
+
+var shout = greeting.map(function(salutation) {
+    return salutation.toUpperCase();
+})
+// 
+var hiShout = shout.shift();
+hiShout;
+'HI'
